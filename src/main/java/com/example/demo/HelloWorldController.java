@@ -18,6 +18,6 @@ public class HelloWorldController {
 
     @GetMapping("{name}")
     public ResponseEntity<String> printWithName(@PathVariable String name){
-        return new ResponseEntity<String>("Hello world"+name, HttpStatus.OK);
+        return new ResponseEntity<String>("Hello world updated"+name, HttpStatus.OK);
     }
 }
