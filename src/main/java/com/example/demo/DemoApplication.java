@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 @SpringBootApplication
 public class DemoApplication {
-
+	int i;
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
